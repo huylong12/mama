@@ -22,9 +22,9 @@ class TetsController < ApplicationController
      
     g = Git.open(working_dir = '\Sites\xxx', :log => Logger.new(STDOUT))
 
-    # g.add('vendor/')
-    # debugger
-    # g.commit('dsadasdasdas')
+    g.add('app/assets/javascripts/application.js')
+    debugger
+    g.commit('dsadashkjkghdasdas')
     # g.branch('new_branch11').checkout
     # debugger
     # g.pull
